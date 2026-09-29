@@ -1,0 +1,103 @@
+================================================================
+ ADVANCE SCIENTIFIC CALCULATOR - README
+================================================================
+
+This file explains how to set up and run project.py.
+
+----------------------------------------------------------------
+1. REQUIREMENTS
+----------------------------------------------------------------
+
+- Python 3.8 or higher
+
+Required Python packages:
+- numpy
+
+Standard library modules used (no installation needed, included
+with Python):
+- math
+- statistics
+
+----------------------------------------------------------------
+2. CHECK YOUR PYTHON VERSION
+----------------------------------------------------------------
+
+Open a terminal / command prompt and run:
+
+    python --version
+
+or, on some systems:
+
+    python3 --version
+
+Make sure the version shown is 3.8 or higher. If Python is not
+installed, download it from: https://www.python.org/downloads/
+
+----------------------------------------------------------------
+3. INSTALL DEPENDENCIES
+----------------------------------------------------------------
+
+Install numpy using pip:
+
+    pip install numpy
+
+or, if that does not work:
+
+    python -m pip install numpy
+
+or (on Linux/Mac if "python" points to Python 2):
+
+    python3 -m pip install numpy
+
+----------------------------------------------------------------
+4. RUNNING THE PROGRAM
+----------------------------------------------------------------
+
+Navigate to the folder containing project.py, then run:
+
+    python project.py
+
+or:
+
+    python3 project.py
+
+----------------------------------------------------------------
+5. HOW TO USE
+----------------------------------------------------------------
+
+1. When the program starts, a menu with 19 operations will be
+   displayed (Addition, Subtraction, Trigonometric Functions,
+   Matrix Operations, Statistics, Unit Conversion, etc.).
+2. Enter the number corresponding to the operation you want
+   (1-19).
+3. Follow the on-screen prompts to enter the required values.
+4. After each operation, you will be asked whether you want to
+   perform another operation (y/n).
+   - Enter "y" to return to the menu.
+   - Enter "n" to exit the program.
+
+----------------------------------------------------------------
+6. TROUBLESHOOTING
+----------------------------------------------------------------
+
+- "ModuleNotFoundError: No module named 'numpy'"
+  -> Run: pip install numpy
+
+- "python is not recognized as an internal or external command"
+  -> Python is not installed or not added to PATH. Reinstall
+     Python and check "Add Python to PATH" during setup.
+
+- Program keeps asking for input again
+  -> This is expected behavior for invalid input (e.g. entering
+     text where a number is required). Simply enter a valid
+     value.
+
+----------------------------------------------------------------
+7. FILES
+----------------------------------------------------------------
+
+project.py   - Main program file. Run this file to start the
+               calculator.
+README.txt   - This file.
+
+================================================================
